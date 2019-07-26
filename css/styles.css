@@ -71,3 +71,15 @@ h3{
 .footer{
     text-align: center;
 }
+.p1, .p2, .p3 {
+    display: none;
+  }
+  /* #card2{
+      margin-left: 17px;
+  }
+  #card3{
+    margin-left: 35px;
+  }
+  #card4{
+      margin-left: 38px;
+  } */
