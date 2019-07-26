@@ -74,12 +74,12 @@ h3{
 .p1, .p2, .p3 {
     display: none;
   }
-  /* #card2{
-      margin-left: 17px;
+  #icon1{
+      margin-left: 300px;
   }
-  #card3{
-    margin-left: 35px;
+  #icon2{
+    margin-left: 200px;
   }
-  #card4{
-      margin-left: 38px;
-  } */
+  #icon3{
+      margin-left: 200px;
+  }
