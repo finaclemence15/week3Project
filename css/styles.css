@@ -53,7 +53,10 @@ h3{
     border: 1px solid white;
     border-radius: 0px;
 }
-
+::placeholder {
+    color: white;
+  }
+  
 .content4 h2{
     text-align: center;
     color: white;
