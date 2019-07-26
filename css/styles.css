@@ -85,3 +85,24 @@ h3{
   #icon3{
       margin-left: 250px;
   }
+  /* ::-webkit-input-placeholder{
+      color: white;
+  }
+  :-ms-input-placeholder{
+      color: white;
+  } */
+  /* ::-moz-placeholder{
+      color: white;
+      opacity: 1;
+  }
+  :-moz-placeholder{
+      color:white;
+      opacity: 1;
+  } */
+  input::-webkit-input-placeholder {
+    color: white !important;
+    }
+    textarea::-webkit-input-placeholder {
+        color: white !important;
+        }
+         
