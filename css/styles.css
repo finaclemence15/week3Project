@@ -53,11 +53,15 @@ h3{
     border: 1px solid white;
     border-radius: 0px;
 }
-::placeholder {
+/* ::placeholder {
     color: white;
-  }
+  } */
   
 .content4 h2{
     text-align: center;
     color: white;
+}
+.content5{
+    text-align: center;
+    font-size: 100px;
 }
