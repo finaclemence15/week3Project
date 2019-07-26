@@ -70,16 +70,18 @@ h3{
 }
 .footer{
     text-align: center;
+    font-size: 10px;
 }
 .p1, .p2, .p3 {
     display: none;
+    text-align: center;
   }
   #icon1{
-      margin-left: 300px;
+      margin-left: 150px;
   }
   #icon2{
     margin-left: 200px;
   }
   #icon3{
-      margin-left: 200px;
+      margin-left: 250px;
   }
