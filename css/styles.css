@@ -37,3 +37,9 @@ h3{
     margin-left: 250px;
 
 }
+.card2{
+    background-image: url("../img/c_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+}
