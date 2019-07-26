@@ -41,5 +41,15 @@ h3{
     background-image: url("../img/c_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height:650px;
+    height:500px;
+}
+/* .col-sm-6, .col-sm-6, .col-sm-12{
+    padding-left: 200px;
+    padding-right: 200px;
+    pa
+    background-color: transparent;
+}  */
+.content4 h2{
+    text-align: center;
+    color: white;
 }
