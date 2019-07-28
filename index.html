@@ -105,22 +105,20 @@
               <div class="card2 card-image">
                 <div class="content4">
                   <h2><b>CONTACT US</h2> <br>
-                    <form>
-                       <div class=" form-group row mx-5">
-                        <div class="col-sm-6"><input type="text" class="form-control" placeholder="Name..."></div>
-                        <div class="col-sm-6"><input type="text" class="form-control" placeholder="Email..."></div>
-                       </div>
-                       <div class="form-group row mx-5">
-                        <div class="col-sm-12"><textarea class="form-control" rows="10"placeholder="Your message here..."></textarea></div>
-                       </div>
-                       <button type="submit" class="btn btn-primary my-1">Submit</button>
-                    </form>
+                      <div class=" form-group row mx-5">
+                        <div class="col-sm-6"><input type="text" class="form-control" id="Name" placeholder="Name..."></div>
+                        <div class="col-sm-6"><input type="text" class="form-control" id="Email" placeholder="Email..."></div>
+                      </div>
+                      <div class="form-group row mx-5">
+                        <div class="col-sm-12"><textarea class="form-control" rows="10" id="Text" placeholder="Your message here..."></textarea></div>
+                      </div>
+                      <button type="submit" class="btn btn-primary my-1" onclick="submition()">Submit</button>
                 </div>
               </div>
             </div>
         </div>
         <!-- social icons images -->
-        <div class="content5">
+        <div class="content5"> <br>
             <div class="col-md-12">
                 <img src="img/twitter.png" alt="">
                 <img src="img/dribble.png" alt="">
@@ -136,7 +134,7 @@
         </div>
         <!-- footer -->
         <div class="footer">
-            <p>DELANI STUDIO <br> 2019</p>
+            <br><p>DELANI STUDIO <br> 2019</p>
         </div>
     </div>
     <script src="js/jquery-3.4.1.js"></script>

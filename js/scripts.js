@@ -12,7 +12,6 @@ $(document).ready(function() {
       });
 
     // Image Hover
-    
     $(".project1").hide();
     $("#work4").css({opacity:2});
     $("#img4").hover(function(){
@@ -93,3 +92,11 @@ $(document).ready(function() {
     $(".project8").fadeOut();
     });
 });
+// submit Button
+function submition(){
+  var name , email, textArea;
+  name = document.getElementById("Name").value;
+  email = document.getElementById("Email").value;
+  textArea = document.getElementById("Text").value;
+  alert(" " + name + " we have received your message. Thank you for reaching out to us. ");
+}
