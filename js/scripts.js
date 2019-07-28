@@ -13,82 +13,82 @@ $(document).ready(function() {
 
     // Image Hover
     $(".project1").hide();
-    $("#work4").css({opacity:2});
+    $("#work4").css({opacity:1});
     $("#img4").hover(function(){
     $(this).css({opacity:0.4});
     $(".project1").fadeIn();
     }, function(){
-    $(this).stop().css({opacity:2})
+    $(this).stop().css({opacity:1})
     $(".project1").fadeOut();
     });
 
     $(".project2").hide();
-    $("#work3").css({opacity:2});
+    $("#work3").css({opacity:1});
     $("#img3").hover(function(){
     $(this).css({opacity:0.4});
     $(".project2").fadeIn();
     }, function(){
-    $(this).stop().css({opacity:2})
+    $(this).stop().css({opacity:1})
     $(".project2").fadeOut();
     });
 
     $(".project3").hide();
-    $("#work2").css({opacity:2});
+    $("#work2").css({opacity:1});
     $("#img2").hover(function(){
     $(this).css({opacity:0.4});
     $(".project3").fadeIn();
     }, function(){
-    $(this).stop().css({opacity:2})
+    $(this).stop().css({opacity:1})
     $(".project3").fadeOut();
     });
 
     $(".project4").hide();
-    $("#work1").css({opacity:2});
+    $("#work1").css({opacity:1});
     $("#img1").hover(function(){
     $(this).css({opacity:0.4});
     $(".project4").fadeIn();
     }, function(){
-    $(this).stop().css({opacity:2})
+    $(this).stop().css({opacity:1})
     $(".project4").fadeOut();
     });
 
     $(".project5").hide();
-    $("#work5").css({opacity:2});
+    $("#work5").css({opacity:1});
     $("#img5").hover(function(){
     $(this).css({opacity:0.4});
     $(".project5").fadeIn();
     }, function(){
-    $(this).stop().css({opacity:2})
+    $(this).stop().css({opacity:1})
     $(".project5").fadeOut();
     });
 
     $(".project6").hide();
-    $("#work6").css({opacity:2});
+    $("#work6").css({opacity:1});
     $("#img6").hover(function(){
     $(this).css({opacity:0.4});
     $(".project6").fadeIn();
     }, function(){
-    $(this).stop().css({opacity:2})
+    $(this).stop().css({opacity:1})
     $(".project6").fadeOut();
     });
 
     $(".project7").hide();
-    $("#work7").css({opacity:2});
+    $("#work7").css({opacity:1});
     $("#img7").hover(function(){
     $(this).css({opacity:0.4});
     $(".project7").fadeIn();
     }, function(){
-    $(this).stop().css({opacity:2})
+    $(this).stop().css({opacity:1})
     $(".project7").fadeOut();
     });
 
     $(".project8").hide();
-    $("#work8").css({opacity:2});
+    $("#work8").css({opacity:1});
     $("#img8").hover(function(){
     $(this).css({opacity:0.4});
     $(".project8").fadeIn();
     }, function(){
-    $(this).stop().css({opacity:2})
+    $(this).stop().css({opacity:1})
     $(".project8").fadeOut();
     });
 });
